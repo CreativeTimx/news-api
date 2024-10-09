@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <script defer src="app.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <nav class="bg-green-700 flex flex-row justify-between items-center py-8 px-5 md:px-10 lg:px-32 xl:px-40 shadow-md shadow-gray-500">
+        <div>
+            <h1 class="text-lg text-white md:text-xl font-semibold">TimxNews.</h1>
+        </div>
+        <form action="">
+            <input type="text" placeholder="Search News Here" class="p-1 px-2 w-40 md:w-80 lg:w-96 rounded bg-gray-300 focus:bg-white outline-none mr-2" id="inputEl">
+            <button class="bg-blue-600 p-2 rounded md:font-bold text-white" id="searchButt">Search</button>
+        </form>
+    </nav>
+
+    <section class="my-20 flex justify-center items-center px-4 md:px-5 lg:px-20">
+
+        <div class="news-result grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
+            <!-- <div class="w-full md:w-80 lg:w-72 shadow-lg px-2 py-2 border-2 border-gray-300 rounded">
+                <img class="mb-5 rounded" src="https://th.bing.com/th/id/R.d83662f6b8a175ec9cccae8ddca98662?rik=HyuIYEMYSSuq3w&pid=ImgRaw&r=0" alt="">
+                <h1 class="font-semibold text-md mb-2">What is Lorem Ipsum?</h1>
+                <p class="text-sm">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div class="w-full md:w-80 lg:w-72 shadow-lg px-2 py-2 border-2 border-gray-300 rounded">
+                <img class="mb-5 rounded" src="https://th.bing.com/th/id/R.d83662f6b8a175ec9cccae8ddca98662?rik=HyuIYEMYSSuq3w&pid=ImgRaw&r=0" alt="">
+                <h1 class="font-semibold text-md mb-2">What is Lorem Ipsum?</h1>
+                <p class="text-sm">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div class="w-full md:w-80 lg:w-72 shadow-lg px-2 py-2 border-2 border-gray-300 rounded">
+                <img class="mb-5 rounded" src="https://th.bing.com/th/id/R.d83662f6b8a175ec9cccae8ddca98662?rik=HyuIYEMYSSuq3w&pid=ImgRaw&r=0" alt="">
+                <h1 class="font-semibold text-md mb-2">What is Lorem Ipsum?</h1>
+                <p class="text-sm">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div class="w-full md:w-80 lg:w-72 shadow-lg px-2 py-2 border-2 border-gray-300 rounded">
+                <img class="mb-5 rounded" src="https://th.bing.com/th/id/R.d83662f6b8a175ec9cccae8ddca98662?rik=HyuIYEMYSSuq3w&pid=ImgRaw&r=0" alt="">
+                <h1 class="font-semibold text-md mb-2">What is Lorem Ipsum?</h1>
+                <p class="text-sm">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div> -->
+            
+        </div>
+        
+    </section>
+    <div class="mb-10 flex justify-center items-center">
+        <button class="bg-blue-600 px-5 py-2 rounded text-white font-bold hidden" id="show-more">Load More</button>
+    </div>
+    
+</body>
+</html>
